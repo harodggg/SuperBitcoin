@@ -1,7 +1,7 @@
 # SuperBitcoin
 Infinitely scalable with minimalism while keeping Bitcoin decentralized and secure.
-SuperBitcoin 协议 旨在 让 web3 分散割裂的独立共识区块链扩展技术方案 回归 到 以BTC 为核心且受 BTC 网络共享安全保障的多链系统，链与链之间通过闪电网络互联 的 价值（web3）网络。
-做一个以 BTC为核心且受BTC共识安全保障的可无限扩展的 价值网络上来。 而 SuperBitcoin 协议 可以类比于 互联网的TCP/IP 协议，以 BTC为核心，闪电网络为 链路通信层，taproot concenus 协议为 扩展层， BEVM-stack 去致力于构建一键起 链且受BTC 网络共享安全共识保障的 多链（万链）层， 而在这之上是 应用层，即dapp层。 
+SuperBitcoin 协议 旨在 让 web3 分散割裂的独立共识区块链扩展技术方案 回归 到 以BTC 为核心且受 BTC 网络共享共识安全保障的多链系统，链与链之间通过闪电网络互联 的 价值（web3）网络。
+做一个以 BTC为核心且受BTC共享共识安全保障的可无限扩展的 价值网络上来。 而 SuperBitcoin 协议 可以类比于 互联网的TCP/IP 协议，以 BTC为核心，闪电网络为 链路通信层，taproot concenus 协议为 扩展层， BEVM-stack 去致力于构建一键起 链且受BTC 网络共享安全共识保障的 多链（万链）层， 而在这之上是 应用层，即dapp层。 
 从而聚集当下割裂的独立共识公链系统的区块链技术，完成重塑一个以 BTC共识为核心且去中心化的无限扩展BTC网络的价值互联网。
 
 
