@@ -48,3 +48,10 @@ BEVM-stack 所做的 多链（万链）系统 接口提供
 
 
 ## Taproot Concensus
+
+## 当前区块链技术方案的对比
+
+### 案例1 Polkadot 的 万链互联 和 SuperBitcoin 的万链互联
+-  都是共享共识安全， 但DOT 共享的共识是 DOT， 而 SuperBitcoin 共享的共识是 Bitcoin。 BTC的共识远大于DOT，所以 原则上 SueprBitcoin 架构的安全性 是 Polkadot 网络安全性 的 BTC市值/DOT 市值，当前约等于 1.3万亿/65亿 = 200 倍。即 SuperBitcoin 上的 lightning chain 比 polkadot 上的平行链安全200倍。
+-  lightning chain VS parachain， SuperBitcoin 上是基于 BEVM-stack 一键发链的 lightning chain， 而polkadot 上是基于 substrate 一键发链的 parachain。
+-  lightning channel VS XCMP， SuperBitcoin 是通过 lightning channel 作为 lightning chain 之间的通信协议， 而Polkadot 是通过XCMP 作为 parachain 之间的通信协议。
