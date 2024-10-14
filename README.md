@@ -27,6 +27,7 @@ BEVM 团队 借鉴 Polkadot 的同构万链互联方案， 把 闪电网络的�
 这样可以使得 Bitcoin 网络可以去中心化的 支持 WASM，EVM，Cario，SVM，MoveMV 等等一系列优秀的区块链扩展VM 平台。 真正做到了让所有的区块链技术融合且增强维护BTC的共识，而BTC的共识安全可以 通过各种创新的区块链技术去中心化的扩展开来。
 ### 第4层： 万链互联层
 通过集成了 Taproot Concensus 接口的BEVM-stack 开发 各种 VM 链，应用链等一键 去中心化和 Bitcoin 网络融为一体， 当下已经使用BEVM-stack 部署的链，如： Satchain，BEVM chain， ChainX。
+以 Bitcoin 的共享安全 来保障所有基于 BEVM-stack 来开发的 链的安全。 BTC 为安全中心的共享安全。
 ### 第5层： 应用层
 在SuperBitcoin 这个以BTC 为内核实现的万链互联系统生态的 上的任意 图灵完备 的VM 上 部署 Defi，Gamefi 等一系列应用，或者单独开发一条专有的应用链。 而这一切可以自动继承 BTC 的共识和安全保障。
 ![image](https://github.com/user-attachments/assets/f7f54ac2-1a6e-4129-91f2-bcea884e1492)
