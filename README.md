@@ -27,11 +27,11 @@ BEVM 团队 借鉴 Polkadot 的同构万链互联方案， 把 闪电网络的�
 这样可以使得 Bitcoin 网络可以去中心化的 支持 WASM，EVM，Cario，SVM，MoveMV 等等一系列优秀的区块链扩展VM 平台。 真正做到了让所有的区块链技术融合且增强维护BTC的共识，而BTC的共识安全可以 通过各种创新的区块链技术去中心化的扩展开来。
 
 #### TaprootConcensus Layer 层包含 3个子层
--1， 闪电网络连接层
+- 1， 闪电网络连接层
 融合闪电网络状态通道到 TaprootConcensus 层
--2， 闪电网络激励层 以及 万链调度分配层
+- 2， 闪电网络激励层 以及 万链调度分配层
  闪电网络 的激励 以及 基于TaprootConcensus 协议链接的 多链系统的协调调度分配。
--3， 万链层的连接层
+- 3， 万链层的连接层
 BEVM-stack 所做的 多链（万链）系统 接口提供
 ### 第4层： 万链互联层
 通过集成了 Taproot Concensus 接口的BEVM-stack 开发 各种 VM 链，应用链等一键 去中心化和 Bitcoin 网络融为一体， 当下已经使用BEVM-stack 部署的链，如： Satchain，BEVM chain， ChainX。
