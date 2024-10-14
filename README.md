@@ -25,6 +25,14 @@ SuperBitcoin 是以 Bitcoin原生网络为内核，闪电网络为通信协议�
 融合了闪电网络状态通道、Bitcoin SPV 轻节点、 Taproot 升级带来的 Shnorr + Mast 合约技术， BFT POS， Substrate 等区块链技术 让Bitcoin 可以保持原生的去中心化网络进行无限的扩展。
 BEVM 团队 借鉴 Polkadot 的同构万链互联方案， 把 闪电网络的每个节点可以升级为 基于 substrate/BEVM-stack 框架开发的 同构链， 从而形成以 Bitcoin 网络为核心的 同构万链互联系统，且去中心化的无限扩展。 
 这样可以使得 Bitcoin 网络可以去中心化的 支持 WASM，EVM，Cario，SVM，MoveMV 等等一系列优秀的区块链扩展VM 平台。 真正做到了让所有的区块链技术融合且增强维护BTC的共识，而BTC的共识安全可以 通过各种创新的区块链技术去中心化的扩展开来。
+
+#### TaprootConcensus Layer 层包含 3个子层
+-1， 闪电网络连接层
+融合闪电网络状态通道到 TaprootConcensus 层
+-2， 闪电网络激励层 以及 万链调度分配层
+ 闪电网络 的激励 以及 基于TaprootConcensus 协议链接的 多链系统的协调调度分配。
+-3， 万链层的连接层
+BEVM-stack 所做的 多链（万链）系统 接口提供
 ### 第4层： 万链互联层
 通过集成了 Taproot Concensus 接口的BEVM-stack 开发 各种 VM 链，应用链等一键 去中心化和 Bitcoin 网络融为一体， 当下已经使用BEVM-stack 部署的链，如： Satchain，BEVM chain， ChainX。
 以 Bitcoin 的共享安全 来保障所有基于 BEVM-stack 来开发的 链的安全。 BTC 为安全中心的共享安全。
