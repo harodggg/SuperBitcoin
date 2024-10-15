@@ -41,6 +41,10 @@ BEVM-stack 所做的 多链（万链）系统 接口提供
 通过集成了 Taproot Concensus 接口的BEVM-stack 开发 各种 VM 链，应用链等一键 去中心化和 Bitcoin 网络融为一体， 当下已经使用BEVM-stack 部署的链，如： Satchain，BEVM chain， ChainX。
 以 Bitcoin 的共享安全 来保障所有基于 BEVM-stack 来开发的 链的安全。 BTC 为安全中心的共享安全。
 我们把兼容TaprootConcensus协议接口的 链平台称为：***lightningchain*** , 基于 BEVM-stack 可以一键 部署 ***lightningchain*** 。 
+#### lightningchain
+基于 BEVM-stack 框架 定制化开发自兼容 TaprootConcensus 协议的 Appchain， 而其中的 bevm-stack 框架 是基于 Substrate 框架增加了 两个模块的增强。
+- 1， 实现了 TaprootConcensus 的 接口，支持了 TaprootConcensus 包装的 Bitcoin 和闪电网络协议的所有功能扩展。
+- 2， 可以自由的像 Substrate 模块化开发一样，定制任意的 链功能， 如支持 MoveVM， CarioVM，SVM，EVM 等智能合约平台的功能链， 也能支持 UniSwap/Curv 等 Defi/Gafi等单一功能的 应用链。
 
 ### 第5层： 应用层
 在SuperBitcoin 这个以BTC 为内核实现的万链互联系统生态的 上的任意 图灵完备 的VM 上 部署 Defi，Gamefi 等一系列应用，或者单独开发一条专有的应用链。 而这一切可以自动继承 BTC 的共识和安全保障。
