@@ -36,9 +36,12 @@ BEVM 团队 借鉴 Polkadot 的同构万链互联方案， 把 闪电网络的�
  闪电网络 的激励 以及 基于TaprootConcensus 协议链接的 多链系统的协调调度分配。
 - 3， 万链层的连接层
 BEVM-stack 所做的 多链（万链）系统 接口提供
+
 ### 第4层： 万链互联层
 通过集成了 Taproot Concensus 接口的BEVM-stack 开发 各种 VM 链，应用链等一键 去中心化和 Bitcoin 网络融为一体， 当下已经使用BEVM-stack 部署的链，如： Satchain，BEVM chain， ChainX。
 以 Bitcoin 的共享安全 来保障所有基于 BEVM-stack 来开发的 链的安全。 BTC 为安全中心的共享安全。
+我们把兼容TaprootConcensus协议接口的 链平台称为：***lightningchain*** , 基于 BEVM-stack 可以一键 部署 ***lightningchain*** 。 
+
 ### 第5层： 应用层
 在SuperBitcoin 这个以BTC 为内核实现的万链互联系统生态的 上的任意 图灵完备 的VM 上 部署 Defi，Gamefi 等一系列应用，或者单独开发一条专有的应用链。 而这一切可以自动继承 BTC 的共识和安全保障。
 ![image](https://github.com/user-attachments/assets/f7f54ac2-1a6e-4129-91f2-bcea884e1492)
