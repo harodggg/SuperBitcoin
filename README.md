@@ -52,6 +52,13 @@ BEVM-stack 所做的 多链（万链）系统 接口提供
 
 
 
+## SuperBitcoin 5层 协议 实例分析
+![image](https://github.com/user-attachments/assets/49bd50fa-11e4-4e25-a745-d9ef22d0cf73)
+- 第一层是以 Bitcoin 网络 为核心，一个去中心化的 最安全的货币系统。 主要是： 最去中心化安全共识。
+- 第二层是通过状态通道 无限快速拓展 Bitcoin 网络信息（资产） 交易的闪电网络系统。 主要是： 保持 Bitcoin 去中心化的前提下实现的 Bitcoin 网络信息（资产）通信系统。
+- 第三层是 以 Taproot Concensus 为核心的 拓展层。 主要是 把闪电网络 上的通信的 信息（资产）做 抽象 后，然后以 图灵完备的 区块链网络数据 提供给  ChainLayer 层的 VM给予处理。
+- 第四层是 定制化的 VM 或者 应用的 lightningchain 层。 主要是： 让现有区块链技术创新的 VM 平台，应用平台 可以快速的 移植到 SuperBitcoin 协议里来，且受到 Bitcoin 网络的共享安全保障， 再进一步把去中心化原生的 BTC 拓展到 任意 图灵完备的VM 区块链平台或者应用链（必须兼容SuperBitcoin 协议）。
+- 第五层是 应用层， 提供的服务 和各类 VM 公链一样， 但有2点不同。 其一： 可以以去中心化原生的 BTC资产 作为该应用的 去中心化基础货币。 其二： 整个应用的底层 共享 Bitcoin 网络的安全。
 
 
 ## Taproot Concensus
