@@ -41,3 +41,4 @@ Importantly, all lightning chains share the Bitcoin network's consensus security
 
 
 ## For more details, please see the [Super Bitcoin white paper]()
+## 更多细节，请看[Super Bitcoin 中文白皮书](https://github.com/btclayer2/SuperBitcoin/blob/main/Super%20Bitcoin%20%E4%B8%AD%E6%96%87%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
