@@ -30,7 +30,8 @@ Meanwhile, sidechains  like Stacks or Layer 2 solutions, although they support s
 
 
 ## 3. System Architecture
-![7741729515730_ pic](https://github.com/user-attachments/assets/30c106c1-e047-4ecf-853b-09d042f79ce5)
+![image](https://github.com/user-attachments/assets/04785c9a-0665-483f-a892-b257f4aec2d9)
+
 ### 3.1 System Architecture Overview
 Super Bitcoin is a five-layer architecture protocol built by BEVM guided by the three problems of blockchain - decentralization, security and scalability.
 This protocol is based on the Bitcoin protocol and utilizes the Lightning Network for efficient peer-to-peer communication. 
